@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400;500&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* border: solid 1px red; */
+}
+
+body {
+    font-size: 100%; /* Por que usar "100%"? */
+    background-color: #3FFF00;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row; /* Não é necessário - este já é o padrão -, mas vale colocar só pra garantir. */
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px;
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-logo {
+    height: 52px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.header-nav-item {
+    /* font-family: 'Open Sans', sans-serif; */
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* .header-nav-item:hover {
+
+} */
+
+.content {
+    /* border-top: 0.6px solid #FFF;*/
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    border-top: 0.6px solid #FFF;
+    width: 80%;
+    padding: 52px 26px;
+}
+
+.main-content-written {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-content-written-title {
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.main-content-written-subtitle {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.main-content-persona {
+    height: 60vh;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+
+    border-top: 0.6px solid #FFF;
+    width: 80%;
+    padding: 26px;
+    font-size: 16px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 52px;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-links a, .contact a {
+    color: #FFF;
+}
